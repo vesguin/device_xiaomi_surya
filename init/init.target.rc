@@ -30,11 +30,6 @@
 import /vendor/etc/init/hw/init.xiaomi.fingerprint.rc
 import /vendor/etc/init/hw/init.xiaomi.rc
 
-on early-init
-    mkdir /dsp 0771 media media
-    mkdir /firmware 0771 system system
-    mkdir /bt_firmware 0771 system system
-
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
