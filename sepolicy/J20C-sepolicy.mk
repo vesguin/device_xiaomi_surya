@@ -8,7 +8,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/surya/sepolicy/leds/vendor \
     device/xiaomi/surya/sepolicy/power/vendor \
     device/xiaomi/surya/sepolicy/qcom/vendor \
-    device/xiaomi/surya/sepolicy/thermal/vendor
+    device/xiaomi/surya/sepolicy/thermal/vendor \
+    device/xiaomi/surya/sepolicy/usb/vendor
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/surya/sepolicy/common/private
