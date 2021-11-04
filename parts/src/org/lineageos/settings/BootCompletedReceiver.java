@@ -45,6 +45,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             Log.d(TAG, "Dirac is not present in system");
         }
         ThermalUtils.initialize(context);
-        RefreshUtils.startService(context);
+        RefreshUtils.initialize(context);
     }
 }
