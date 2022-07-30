@@ -96,3 +96,6 @@ ro.soc.model=SM7150
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
