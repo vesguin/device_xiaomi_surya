@@ -27,6 +27,8 @@
 #
 #
 
+import /vendor/etc/init/hw/init.xiaomi.rc
+
 on early-init
     mkdir /dsp 0771 media media
     mkdir /firmware 0771 system system
