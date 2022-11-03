@@ -1,0 +1,6 @@
+# LCD Features
+persist.lcd.hbm_mode=0
+persist.lcd.cabc_mode=1
+
+# HDR
+ro.surface_flinger.has_wide_color_display=false

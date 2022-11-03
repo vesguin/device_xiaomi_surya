@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 Paranoid Android
+<!--
+     Copyright (C) 2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,11 +14,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.surya">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <overlay
-        android:isStatic="true"
-        android:priority="850"
-        android:targetPackage="android" />
-</manifest>
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">28dp</dimen>
+
+    <!-- Rounded corners -->
+    <dimen name="rounded_corner_radius_top">94px</dimen>
+    <dimen name="rounded_corner_radius_bottom">90px</dimen>
+
+</resources>

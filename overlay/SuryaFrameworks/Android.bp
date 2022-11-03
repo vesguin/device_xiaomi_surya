@@ -15,5 +15,5 @@
 runtime_resource_overlay {
     name: "SuryaFrameworks",
     sdk_version: "current",
-    vendor: true,
+    vendor: true
 }
