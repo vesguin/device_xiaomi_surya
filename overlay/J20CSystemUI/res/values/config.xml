@@ -20,8 +20,4 @@
          keyguardMaxRefreshRate. -->
     <integer name="config_keyguardRefreshRate">60</integer>
 
-    <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">5</integer>
-    <integer name="config_maxVisibleNotificationIconsOnLock">6</integer>
-
 </resources>
