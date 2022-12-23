@@ -214,11 +214,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wfd \
     wlan
 
-# RCS
-PRODUCT_PACKAGES += \
-    PresencePolling \
-    RcsService
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi-multihal \
