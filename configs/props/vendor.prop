@@ -1,7 +1,4 @@
 # Audio
-ro.vendor.audio.soundfx.type=mi
-ro.vendor.audio.soundfx.usb=true
-ro.vendor.audio.misound.bluetooth.enable=true
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 persist.vendor.audio.voicecall.speaker.stereo=true
 
