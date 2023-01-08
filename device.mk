@@ -95,7 +95,17 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.manager@1.0.vendor \
     android.hidl.memory.block@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
 
 # IDC
 PRODUCT_COPY_FILES += \
@@ -147,6 +157,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-rtti \
     android.hardware.neuralnetworks@1.3.vendor
 
 # NFC
@@ -192,6 +203,13 @@ PRODUCT_COPY_FILES += \
 # Platform
 MSMSTEPPE := sm6150
 TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
+# QTI VNDK Framework Detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect_system \
+    libqti_vndfwk_detect_vendor \
+    libvndfwk_detect_jni.qti_system \
+    libvndfwk_detect_jni.qti_vendor
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
